@@ -56,7 +56,7 @@ modules.builtin
 include/config
 include/linux/version.h
 include/generated
-
+scripts/recordmcount
 # stgit generated dirs
 patches-*
 
