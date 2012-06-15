@@ -79,3 +79,5 @@ GTAGS
 \#*#
 arch/arm/boot/compressed/lib1funcs.S
 arch/arm/boot/compressed/vmlinux
+drivers/tty/vt/consolemap_deftbl.c
+drivers/tty/vt/defkeymap.c
