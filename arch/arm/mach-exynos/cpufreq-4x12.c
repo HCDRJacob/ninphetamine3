@@ -227,55 +227,55 @@ static unsigned int clkdiv_cpu1_4412[CPUFREQ_LEVEL_END][3] = {
 	/* Clock divider value for following
 	 * { DIVCOPY, DIVHPM, DIVCORES }
 	 */
-	/* ARM L2: 1800MHz */
+	/* ARM L0: 1800MHz */
 	{ 6, 0, 6 },
 
-	/* ARM L3: 1704MHz */
+	/* ARM L1: 1704MHz */
 	{ 6, 0, 6 },
 
-	/* ARM L4: 1600MHz */
+	/* ARM L2: 1600MHz */
 	{ 6, 0, 6 },
 
-	/* ARM L5: 1500MHz */
+	/* ARM L3: 1500MHz */
 	{ 6, 0, 6 },
 
-	/* ARM L6: 1400MHz */
+	/* ARM L4: 1400MHz */
 	{ 6, 0, 6 },
 
-	/* ARM L7: 1300MHz */
+	/* ARM L5: 1300MHz */
 	{ 5, 0, 6 },
 
-	/* ARM L8: 1200MHz */
+	/* ARM L6: 1200MHz */
 	{ 5, 0, 5 },
 
-	/* ARM L9: 1100MHz */
+	/* ARM L7: 1100MHz */
 	{ 4, 0, 5 },
 
-	/* ARM L10: 1000MHz */
+	/* ARM L8: 1000MHz */
 	{ 4, 0, 4 },
 
-	/* ARM L11: 900MHz */
+	/* ARM L9: 900MHz */
 	{ 3, 0, 4 },
 
-	/* ARM L12: 800MHz */
+	/* ARM L10: 800MHz */
 	{ 3, 0, 3 },
 
-	/* ARM L13: 700MHz */
+	/* ARM L11: 700MHz */
 	{ 3, 0, 3 },
 
-	/* ARM L14: 600MHz */
+	/* ARM L12: 600MHz */
 	{ 3, 0, 2 },
 
-	/* ARM L15: 500MHz */
+	/* ARM L13: 500MHz */
 	{ 3, 0, 2 },
 
-	/* ARM L16: 400MHz */
+	/* ARM L14: 400MHz */
 	{ 3, 0, 1 },
 
-	/* ARM L17: 300MHz */
+	/* ARM L15: 300MHz */
 	{ 3, 0, 1 },
 
-	/* ARM L18: 200MHz */
+	/* ARM L16: 200MHz */
 	{ 3, 0, 0 },
 };
 
