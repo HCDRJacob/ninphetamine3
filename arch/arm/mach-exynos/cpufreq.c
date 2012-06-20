@@ -33,7 +33,7 @@
 #include <plat/cpu.h>
 
 #define CPU_UV_MV_MAX 1500000
-#define CPU_UV_MV_MIN 850000
+#define CPU_UV_MV_MIN 600000
 
 struct exynos_dvfs_info *exynos_info;
 
