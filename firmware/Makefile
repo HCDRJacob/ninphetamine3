@@ -26,8 +26,7 @@ fw-shipped- += acenic/tg1.bin
 else
 acenic-objs := acenic/tg1.bin acenic/tg2.bin
 endif
-fw-shipped-$(CONFIG_VIDEO_S5C73M3) += SlimISP_ZD.bin \
-				      SlimISP_GD.bin
+fw-shipped-$(CONFIG_VIDEO_S5C73M3) += SlimISP_GD.bin
 
 fw-shipped-$(CONFIG_3C359) += 3com/3C359.bin
 fw-shipped-$(CONFIG_ACENIC) += $(acenic-objs)
